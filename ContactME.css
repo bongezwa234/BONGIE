@@ -1,0 +1,126 @@
+.navbar ul{
+    list-style: none;
+    background:gray;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+.navbar a:hover{
+    background: yellowgreen;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+h2 {
+    text-align: left;
+    color:red;
+    margin-left: 20px;
+}
+p {
+    color: white;
+    margin-left: 30px;
+}
+body {
+    background-image: url(copy.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact-form {
+    width: 55%;
+    max-width: 300px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: 1%;
+    left:75%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+ .txtb{
+     border: 1px solid gray;
+     margin: 8px 0;
+     padding: 12px 18px;
+     border-radius: 8px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: block;
+    background: rebeccapurple;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+.Directions:Hover{
+    background-color: rosybrown;
+    color: white;
+}
+.Adress {
+    margin-left: 20px;
+    color: white;
+}
+
+.glow {
+    font-size: 80px;
+    color:PURPLE;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px purple, 0 0 40px purple, 0 0 50px purple, 0 0 60px purple, 0 0 70px purple, 0 0 80px purple;
+    }
+  }
